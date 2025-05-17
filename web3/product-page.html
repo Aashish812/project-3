@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vibrant Product Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">MyShop</div>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="product-card">
+      <div class="product-gallery">
+        <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1d5?auto=format&fit=crop&w=100&q=80" onclick="document.getElementById('main-img').src=this.src">
+        <img src="https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&w=100&q=80" onclick="document.getElementById('main-img').src=this.src">
+        <img src="https://images.unsplash.com/photo-1593803548098-58c8c5a8ce7d?auto=format&fit=crop&w=100&q=80" onclick="document.getElementById('main-img').src=this.src">
+      </div>
+      <img id="main-img" class="product-image" src="https://images.unsplash.com/photo-1585386959984-a4155224a1d5?auto=format&fit=crop&w=600&q=80" alt="Product Image">
+      <div class="product-info">
+        <h2 class="product-title">Awesome Headphones</h2>
+        <p class="product-description">High-quality wireless headphones with noise cancellation and crystal-clear sound. Enjoy a premium audio experience with vibrant style.</p>
+        <p class="product-price">$99.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <h3>Customer Reviews</h3><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vibrant Product Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Add some basic styling to improve the layout */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1em;
+    }
+    .container {
+      max-width: 800px;
+      margin: 2em auto;
+      padding: 1em;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .product-card {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .product-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .product-gallery img {
+      width: 100px;
+      height: 100px;
+      margin: 1em;
+      cursor: pointer;
+    }
+    .product-image {
+      width: 300px;
+      height: 300px;
+      margin: 1em;
+    }
+    .product-info {
+      margin: 1em;
+    }
+    .product-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 0.5em;
+    }
+    .product-description {
+      font-size: 18px;
+      margin-bottom: 1em;
+    }
+    .product-price {
+      font-size: 24px;
+      font-weight: bold;
+      color: #333;
+    }
+    .add-to-cart {
+      background-color: #333;
+      color: #fff;
+      padding: 1em 2em;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .reviews {
+      margin: 2em 0;
+    }
+    .review {
+      margin: 1em 0;
+    }
+    .related-products {
+      margin: 2em 0;
+    }
+    .related-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .related-list img {
+      width: 100px;
+      height: 100px;
+      margin: 1em;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">MyShop</div>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">Contact</a>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="product-card">
+      <div class="product-gallery">
+        <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1d5?auto=format&fit=crop&w=100&q=80" onclick="document.getElementById('main-img').src=this.src">
+        <img src="https://images.unsplash.com/photo-1512314889357-e157c22f938d?auto=format&fit=crop&w=100&q=80" onclick="document.getElementById('main-img').src=this.src">
+        <img src="https://images.unsplash.com/photo-1593803548098-58c8c5a8ce7d?auto=format&fit=crop&w=100&q=80" onclick="document.getElementById('main-img').src=this.src">
+      </div>
+      <img id="main-img" class="product-image" src="https://images.unsplash.com/photo-1585386959984-a4155224a1d5?auto=format&fit=crop&w=600&q=80" alt="Product Image">
+      <div class="product-info">
+        <h2 class="product-title">Awesome Headphones</h2>
+        <p class="product-description">High-quality wireless headphones with noise cancellation and crystal-clear sound. Enjoy a premium audio experience with vibrant style.</p>
+        <p class="product-price">$99.99</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+
+    <div class="reviews">
+      <h3>Customer Reviews</h3>
+      <div class="review"><strong>John D.</strong><p>Great quality and battery life! Highly recommend.</p></div>
+      <div class="review"><strong>Sarah L.</strong><p>Very comfortable and excellent sound clarity.</p></div>
+    </div>
+
+    <div class="related-products">
+      <h3>Related Products</h3>
+      <div class="related-list">
+        <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=100&q=80">
+        <img src="https://images.unsplash.com/photo-1555617982-4e7a669c2e7c?auto=format&fit=crop&w=100&q=80">
+        <img src="https://images.unsplash.com/photo-1555617117-08b38c1684bc?auto=format&fit=crop&w=100&q=80">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+      <div class="review"><strong>John D.</strong><p>Great quality and battery life! Highly recommend.</p></div>
+      <div class="review"><strong>Sarah L.</strong><p>Very comfortable and excellent sound clarity.</p></div>
+    </div>
+
+    <div class="related-products">
+      <h3>Related Products</h3>
+      <div class="related-list">
+        <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=100&q=80">
+        <img src="https://images.unsplash.com/photo-1555617982-4e7a669c2e7c?auto=format&fit=crop&w=100&q=80">
+        <img src="https://images.unsplash.com/photo-1555617117-08b38c1684bc?auto=format&fit=crop&w=100&q=80">
+      </div>
+    </div>
+  </div>
+</body>
+</html>
